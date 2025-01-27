@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+  .header-nav {
+    background-color: #222323;
+    height: 100px;
+    min-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .header-nav__logo img {
+    width: 170px;
+  }
+
+  .header-nav__menu {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 20px;
+  }
+
+  .header-menu__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
