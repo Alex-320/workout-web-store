@@ -4,7 +4,7 @@
   margin: 120px 0 120px 100px;
 }
 
-.categories__wrapper{
+.categories__container{
   margin: 120px 0 120px 100px;
   display: flex;
   gap: 35px;
