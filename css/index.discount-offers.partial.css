@@ -1,0 +1,29 @@
+.discount-offers {
+  min-width: 1024px;
+  display: flex;
+}
+
+.discount-offers__list {
+}
+
+.discount-offers__item {
+}
+
+.discount-offers__image {
+ 
+}
+
+.discount-offers__overlay {
+}
+
+.discount-offers__title {
+}
+
+.discount-offers__link {
+}
+
+.--1{
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+}

@@ -5,3 +5,6 @@
 @import "index.features.partial.css";
 @import "index.about-us.partial.css";
 @import "index.trending.partial.css";
+@import "index.sale-products.partial.css";
+@import "index.discount.partial.css";
+@import "index.discount-offers.css";
