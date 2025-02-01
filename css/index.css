@@ -7,4 +7,8 @@
 @import "index.trending.partial.css";
 @import "index.sale-products.partial.css";
 @import "index.discount.partial.css";
-@import "index.discount-offers.css";
+@import "index.discount-offers.partial.css";
+@import "index.collections.partial.css";
+@import "index.collections-women.partial.css";
+@import "index.collections-men.partial.css";
+@import "index.collections-shoes.partial.css";
