@@ -40,9 +40,7 @@
 
 .sale-products__list {
   display: flex;
-  /* gap: 15px; */
   width: 100%;
-  /* background-color: violet; */
   justify-content: space-between;
 }
 

@@ -1,0 +1,19 @@
+.collections{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.collections-nav{
+ display: flex;
+ gap: 15px;
+ list-style-type: none;
+ padding: 15px 0;
+ margin: 0 auto;
+}
+.collections__line{
+  background-color: red;
+  width: 80%;
+  height: 4px;
+  margin: 0 auto;
+}
