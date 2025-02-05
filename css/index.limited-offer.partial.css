@@ -5,7 +5,10 @@
 }
 
 .limited-offer__content {
-  padding: 100px;
+  padding: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .limited-offer__title {
@@ -19,16 +22,17 @@
   font-weight: 700;
   font-family: "PT Sans", sans-serif;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 5px;
   color: white;
-  font-family: "PT Sans", sans-serif;
 }
 
-.limited-offer__price--new{
- justify-content: ;
+.limited-offer__price--new {
   font-weight: 700;
+  position: relative;
+  top: -10px;
   font-size: 42px;
-  color: #F40106;
+  color: #f40106;
   font-weight: 700;
 }
 
@@ -37,7 +41,6 @@
   text-decoration: line-through;
   font-weight: 700;
   font-size: 23px;
-
 }
 
 .limited-offer__description {
@@ -46,8 +49,17 @@
   font-weight: 400;
 }
 
+.limited-offer__link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 700;
+}
+
 .limited-offer__link img {
-  width: 24px;
+  width: 20px;
 }
 
 .limited-offer__content {
@@ -63,4 +75,34 @@
 .limited-offer__image img {
   width: 100%;
   object-fit: cover;
+}
+
+.limited-offer__timer {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 100px; */
+}
+
+.countdown__item {
+  width: 105px;
+  height: 100px;
+  border: 2px solid rgb(122, 122, 122);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.countdown__number {
+  font-size: 36px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+}
+
+.countdown__label {
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  opacity: 0.54;
 }
