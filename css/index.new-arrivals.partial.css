@@ -1,6 +1,5 @@
 .new-arrivals {
   min-width: 1024px;
-  display: flex;
   height: 830px;
   padding: 120px 70px;
   display: flex;
@@ -8,11 +7,9 @@
 }
 
 .new-arrivals__text-block {
-  /* width: 100%; */
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  /* text-align: left; */
   gap: 15px;
 }
 
@@ -146,3 +143,4 @@
 .new-arrivals__image:hover {
   opacity: 0.8;
 }
+
