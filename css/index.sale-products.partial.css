@@ -64,16 +64,16 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.heading-link{
+.heading-link {
   text-decoration: none;
 }
 
-.heading-link:hover{
+.heading-link:hover {
   text-decoration: underline;
 }
 
 .sale-products__text {
-  color: #F40106;
+  color: #f40106;
   font-weight: 700;
   font-size: 22px;
 }
@@ -89,7 +89,7 @@
 }
 
 .sale-products__btn:hover {
-  background-color: #F40106;
+  background-color: #f40106;
 }
 
 .sale-products__btn-link {
@@ -102,7 +102,6 @@
   font-weight: 700;
 }
 
-
-.sale-products__img:hover{
+.sale-products__img:hover {
   opacity: 0.8;
 }

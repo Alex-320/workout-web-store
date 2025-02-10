@@ -12,7 +12,7 @@
   padding-left: 40px;
 }
 
-.orig-brands__container{
+.orig-brands__container {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -33,29 +33,27 @@
   line-height: 120px;
 }
 
-
-.orig-brands__icons{
-display: flex;
-gap: 15px;
+.orig-brands__icons {
+  display: flex;
+  gap: 15px;
 }
 
-.icons-item{
-gap: 10px;
-color: white;
-font-weight: 600;
-font-family: "PT Sans", sans-serif;
-display: flex;
-}
-
-
-.icons-item img{
-width: 20px;
-}
-
-.orig-brands__paragraph{
+.icons-item {
+  gap: 10px;
   color: white;
-font-size: 20px;
-line-height: 30px;
+  font-weight: 600;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+}
+
+.icons-item img {
+  width: 20px;
+}
+
+.orig-brands__paragraph {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 400;
   font-family: "PT Sans", sans-serif;
 }
@@ -75,8 +73,8 @@ line-height: 30px;
 .orig-brands__btn:hover {
   background-color: #ffffff;
 
-  .orig-brands__btn-link img{
-    content:url(/img/categories-img/black-arrow.png) ;
+  .orig-brands__btn-link img {
+    content: url(/img/categories-img/black-arrow.png);
   }
 }
 

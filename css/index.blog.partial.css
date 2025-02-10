@@ -43,7 +43,7 @@
   text-align: left;
 }
 
-.heading-link{
+.heading-link {
   text-decoration: none;
 }
 
@@ -81,12 +81,11 @@
   line-height: 1.5;
 }
 
-
-.blog__text-link{
+.blog__text-link {
   text-decoration: none;
 }
 
-.blog__text-link:hover{
+.blog__text-link:hover {
   text-decoration: underline;
   text-decoration-color: rgb(112, 112, 112);
 }

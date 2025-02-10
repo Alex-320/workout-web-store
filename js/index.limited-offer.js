@@ -1,6 +1,4 @@
-
-
-const savedTime = JSON.parse(localStorage.getItem('countdownTime'));
+const savedTime = JSON.parse(localStorage.getItem("countdownTime"));
 
 let countS = savedTime ? savedTime.seconds : 5;
 let countM = savedTime ? savedTime.minutes : 1;
@@ -35,12 +33,15 @@ function updateCounter() {
   counterH.textContent = countH;
   counterD.textContent = countD;
 
-  localStorage.setItem('countdownTime', JSON.stringify({
-    days: countD,
-    hours: countH,
-    minutes: countM,
-    seconds: countS
-  }));
+  localStorage.setItem(
+    "countdownTime",
+    JSON.stringify({
+      days: countD,
+      hours: countH,
+      minutes: countM,
+      seconds: countS,
+    })
+  );
 }
 
 setInterval(updateCounter, 1000);

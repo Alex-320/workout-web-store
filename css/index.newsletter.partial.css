@@ -29,23 +29,22 @@
   gap: 10px;
 }
 
-.newsletter__info span{
+.newsletter__info span {
   font-size: 21px;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
 }
 
-.newsletter__text{
+.newsletter__text {
   font-size: 14px;
   color: #222323;
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
 }
 
-.newsletter__img{
+.newsletter__img {
   width: 50px;
 }
-
 
 .newsletter__form {
   display: flex;

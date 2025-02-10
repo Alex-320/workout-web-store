@@ -30,15 +30,15 @@
 }
 
 .discount-offers__overlay {
-background-color: #222323E3;
-height: 120px;
-width: 90%;
-text-align: center;
-display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 10px;
-margin: 0 10px 20px;
+  background-color: #222323e3;
+  height: 120px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10px 20px;
 }
 
 .discount-offers__title {
@@ -56,7 +56,6 @@ margin: 0 10px 20px;
   font-weight: 700;
 }
 
-.discount-offers__link:hover{
-text-decoration: underline; 
+.discount-offers__link:hover {
+  text-decoration: underline;
 }
-

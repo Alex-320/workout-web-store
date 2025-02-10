@@ -9,7 +9,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.header-nav__container{
+.header-nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;

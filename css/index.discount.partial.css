@@ -39,17 +39,15 @@
   margin-top: 40px;
 }
 
-.discount__btn:hover  {
+.discount__btn:hover {
   background-color: #000000;
-  a{
+  a {
     color: white;
   }
-  img{
+  img {
     content: url(/img/hero-banner-img/arrow-icon.png);
   }
 }
-
-
 
 .discount__btn-link {
   color: rgb(0, 0, 0);
