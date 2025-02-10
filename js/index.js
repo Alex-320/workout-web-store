@@ -2,7 +2,7 @@ function init() {
   import("./index.collections.js");
   import("./index.limited-offer.js");
   import("./index.new-arrivals.js");
-  import("./index.carousel.js");
+  import("./index.newsletter.js");
 }
 
 const totalPartials = document.querySelectorAll(

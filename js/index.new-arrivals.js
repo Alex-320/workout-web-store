@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const productList = document.querySelector(".new-arrivals__list");
   const items = Array.from(productList.children);
-  const itemWidth = items[0].offsetWidth; // Ширина одного товару
+  const itemWidth = items[0].offsetWidth; 
   let currentIndex = 0;
 
   function updateCarousel() {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (currentIndex < items.length - 1) {
         currentIndex++;
       } else {
-        currentIndex = 0; // Повертаємось на початок (ефект каруселі)
+        currentIndex = 0; 
       }
       updateCarousel();
     });
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (currentIndex > 0) {
         currentIndex--;
       } else {
-        currentIndex = items.length - 1; // Переходимо на останній елемент
+        currentIndex = items.length - 1;
       }
       updateCarousel();
     });

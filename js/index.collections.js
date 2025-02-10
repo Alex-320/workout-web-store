@@ -1,8 +1,8 @@
-let women = $(".collections-nav>button:first"); //women link
+let women = $(".collections-nav>button:first");
 
-let men = $(".collections-nav").children().eq(1); //men link
+let men = $(".collections-nav").children().eq(1); 
 
-let shoes = $(".collections-nav>button:last"); //shoes link
+let shoes = $(".collections-nav>button:last"); 
 
 let menContainer = $(".men__container");
 let womenContainer = $(".women__container");
